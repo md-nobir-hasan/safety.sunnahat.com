@@ -16,7 +16,7 @@
                 <div class="card">
                     <div class="card-header">
                         <span class="float-left">
-                            <h4>View Order</h4>
+                            <h4>This page Under repairing</h4>
                         </span>
                         <span class="float-right">
                             {{-- <a href="{{ route('order.create') }}" class="btn btn-info">Add new Order</a> --}}
@@ -36,7 +36,8 @@
                                         <th>Address</th>
                                         <th>Quantity</th>
                                         <th>Shiping Charge</th>
-                                        <th>Amount</th>                                        <th>Ordered Time</th>
+                                        <th>Amount</th>
+                                        <th>Ordered Time</th>
                                         {{-- <th>Status</th>
                                         <th>Action</th> --}}
                                     </tr>
@@ -106,13 +107,13 @@
                         orientation: 'potrait',
                         pagesize: 'LETTER',
                         exportOptions: {
-                            columns: [0, 1, 2,3,4,5,6,7,8]
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 8]
                         }
                     },
                     {
                         extend: 'print',
                         exportOptions: {
-                            columns: [0, 1, 2,3,4,5,6,7,8]
+                            columns: [0, 1, 2, 3, 4, 5, 6, 7, 8]
                         }
                     }, 'pageLength'
                 ]
